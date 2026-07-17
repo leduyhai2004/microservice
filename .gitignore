@@ -1,0 +1,73 @@
+# Maven build outputs
+**/target/
+**/build/
+**/out/
+
+# Java artifacts
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Keep Maven Wrapper binaries if present
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# Logs and runtime files
+*.log
+logs/
+**/logs/
+*.pid
+*.hprof
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.secrets
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse / Spring Tool Suite
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Test and coverage reports
+coverage/
+*.exec
+jacoco.exec
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
